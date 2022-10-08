@@ -1,0 +1,97 @@
+@import url(IMG/Argentina\ free\ promo.ttf);
+
+body{
+    background-image: url(IMG/FONDO.svg) ;
+    background-repeat: repeat-y;
+    background-position: 10cm;
+}
+
+.Titulo1{
+
+    font-family: Argentina;
+    font-size: 150px;
+    text-align: center;
+    text-shadow: 7px 5px grey;
+}
+
+/*CONJUNTO DE CARDS*/
+.cardi {      
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+/*CARDS INDIVIDUAL*/
+.card {
+    margin: 4px;
+}
+
+#carouselExampleFade{
+    width: 100%
+}
+
+/*REGIONES*/
+
+.regiones{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*FOOTER*/
+.logofoot{
+    margin: 30px;
+   
+}
+.socialnetworks{
+    margin: 30px;
+    display: block;
+}
+.navbarfoot{
+    margin: 30px;
+    border: 1px solid black;
+}
+#anchonavbarfoot{
+    width: 13cm;
+}
+#foot{
+    display: flex;
+    justify-content: space-around;
+}
+.redes {
+    margin-left: 4cm;
+}
+
+
+
+@media (max-width: 375px) {
+ 
+    .cardi{
+       flex-wrap: wrap;
+       
+    }
+    .Titulo1{   /*no puedo centrar el texto*/
+
+       text-align:center;
+       font-size: 40px;
+    }
+    .videos{
+        width: 300px;
+        height: 200px;
+    }
+   
+    #foot {
+        display: block;
+    }
+    .logofoot{
+        
+        margin-left: 170px;
+    }
+    .carousel-item img{
+        height: 250px;
+    }
+    #anchonavbarfoot{
+        width: 300px;
+
+    }
+
+}

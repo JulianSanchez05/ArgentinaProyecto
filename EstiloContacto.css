@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: left;
+   
+ background-image: url(IMG/FONDO.svg);
+ background-repeat: repeat-y;
+ background-size: 100%;
+ opacity: 90%;
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    font-family: Argentina;
+    text-shadow: 3px 3px grey;
+    text-align: center;
+    text-size-adjust: 2 em;
+}
+.formatoDiv{
+    margin: auto;
+    width: 90%;
+    max-width: 300px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0 / 30%);
+}
+.contenedor{
+    margin-top: 0.4em;
+    display: grid;
+    gap: 0.2em;
+}
+.grupo{
+    margin: 0.5em  0.5em 0  0.5em ;
+    
+}
+.botonEnviar{
+    
+    font-family: Argentina;
+    text-shadow: 3px 3px grey;
+    position: relative;
+    margin:0.6em;
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+.logofoot{
+    margin: 30px;
+   
+}
+.socialnetworks{
+    margin: 30px;
+    display: block;
+}
+.navbarfoot{
+    margin: 30px;
+    border: 1px solid black;
+}
+#anchonavbarfoot{
+    width: 13cm;
+}
+#foot{
+    display: flex;
+    justify-content: space-around;
+}
+.redes {
+    margin-left: 4cm;
+}
+#derechos {
+    text-align:center;
+}
+
+@media (max-width: 375px) {
+
+    #foot {
+        display: block;
+    }
+    .logofoot{
+        
+        margin-left: 150px;
+    }
+    .carousel-item img{
+        height: 250px;
+    }
+    #anchonavbarfoot{
+        width: 300px;
+    
+    }
+}

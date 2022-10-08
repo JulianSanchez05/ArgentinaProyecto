@@ -1,0 +1,90 @@
+@import url(IMG/Argentina\ free\ promo.ttf);
+body{
+    background-image: url(IMG/FONDO.svg) ;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    
+   
+}
+.Titulo {
+
+    color:grey;
+    font-family: Argentina;
+    font-size: 500%;
+    text-shadow: 2px 7px black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ImgHeader {
+    
+    margin: auto;
+    padding: auto;
+    background-size: cover;
+    
+}
+.Subtitulo{
+    text-align: center;
+}
+.Caja {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgba(128, 128, 128, 0.226);
+    width: 600px;
+    height: 250px;
+
+    margin: auto;
+    padding: auto;
+}
+.logofoot{
+    margin: 30px;
+   
+}
+.socialnetworks{
+    margin: 30px;
+    display: block;
+}
+.navbarfoot{
+    margin: 30px;
+    border: 1px solid black;
+}
+#anchonavbarfoot{
+    width: 13cm;
+}
+#foot{
+    display: flex;
+    justify-content: space-around;
+}
+.redes {
+    margin-left: 4cm;
+}
+
+@media (max-width: 375px) {
+    .Titulo{
+        font-size: 60px;
+        text-align: center;
+    }
+    .Caja {
+        height: auto;
+        width: auto;
+        margin: 0.5cm 1cm;
+    }
+    #foot {
+        display: block;
+    }
+    .logofoot{
+        
+        margin-left: 170px;
+    }
+    .carousel-item img{
+        height: 250px;
+    }
+    #anchonavbarfoot{
+        width: 300px;
+
+    }
+
+}
+
+
+
+
